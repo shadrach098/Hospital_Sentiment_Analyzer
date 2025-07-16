@@ -74,7 +74,7 @@ Build an ML pipeline that classifies patient sentiment as either **positive** or
 | MultinomialNB          | 0.80%        |
 | TPOT (Best)            | 84%          |
 
-> *(Actual scores plotted in final visualizations)*
+> ![plot values](ploteval.png)
 
 ### Final TPOT Pipeline
 
@@ -84,10 +84,10 @@ The best model pipeline was selected and exported as `.pk1` and `.pt` files.
 
 ## 📊 Visualizations
 
-* Sentiment distribution
-* Ratings histogram
-* Word cloud of patient feedback
-* Model accuracy comparison bar chart
+* ![Sentiment distribution](sentiment.png)
+* ![Ratings histogram](rating.png)
+* ![Word cloud of patient feedback](wordcloud.png)
+* ![Model accuracy comparison bar chart](ploteval.png)
 
 ---
 
